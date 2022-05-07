@@ -7,7 +7,7 @@ public class HomePageTestClass {
 	@Test
 	public void verifyHomepageHeader() {
 		System.out.println("Homepage header is displayed.");
-		Assert.assertTrue(true, "Homepage header is not displayed");
+		Assert.assertTrue(false, "Homepage header is not displayed");
 	}
 	
 	@Test
